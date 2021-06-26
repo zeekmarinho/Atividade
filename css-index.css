@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 253, 253);
+}
+
+.inicio-container div{
+    background-image: url(img/navcarros.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicio-container div p{
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.meio-container{
+    background: #fff;
+}
+
+.meio-container div{    
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+}
+
+.meio-container div div{    
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin: 10px;
+}
+
+.final-container{
+    background-color: yellow;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-contatos{
+    /*padding: 1em;
+    border: 1px solid rgb(0, 0, 0);*/
+}
+
+.div-contatos form{
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    
+}
+
+.div-contatos form div + div{
+    margin-top: 1em;
+}
+
+.div-contatos label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+.div-contatos input, textarea{
+    font:medium;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.div-contatos input:focus, textarea:focus{
+    border-color: #000;
+}
+
+.div-contatos textarea{
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.div-contatos .button{
+    padding-left: 90px;    
+}
+
+.div-contatos button{
+    margin-left: .5em;
+}
+
+.div-redes{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.div-redes img{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 10px;
+}
+
+
